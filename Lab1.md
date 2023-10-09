@@ -6,4 +6,4 @@ In this first week we learned about different commands that you can use in the t
 
 Here's an example of me using this command. I started at the kernel and changed directories to lecture1
 
-![Image](cd with argument.png)
+![Image](cd with argument.PNG)
