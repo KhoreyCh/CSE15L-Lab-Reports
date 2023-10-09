@@ -30,4 +30,4 @@ The cat command can be used to open files. When used with a directory as an argu
 When used on a file, it'll open up the file
 ![Image](cat with file argument.PNG)
 when used without an argument, the terminal kind of froze, and I was only able to get out with ctrl+c
-![Image](cd with no argument.PNG)
+![Image](cat with no argument.PNG)
