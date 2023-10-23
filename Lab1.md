@@ -8,9 +8,9 @@ Here's an example of me using this command. I started at the kernel and changed 
 
 ![Image](cd with argument.PNG)
 
-Of course, there must be an argument otherwise the directory won't change. ex:
+If you call the command without including an argument, it'll take you back home. ex:
 
-![Image](CD no argument.PNG)
+![Image](CD no argument revised.PNG)
 
 and if there is a file is the argument, you will get a error telling you that the argument is not a directory
 
