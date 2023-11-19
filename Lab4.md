@@ -1,4 +1,4 @@
-#Lab Report 4 - Vim
+# Lab Report 4 - Vim
 
 In this lab, we learned how to use vim to edit files from the command line, and we learned a lot of shortcuts to making editing go faster. For step 4, I pressed `<Up><Enter>`. This brought up the command: 
 `ssh cs15lfa23tc@ieng6.ucsd.edu` because it was the most recent command I used from the terminal. Running this allowed me to connect to the server. Because I have my ssh keys setup, there was no need for me to put in
