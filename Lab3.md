@@ -1089,24 +1089,19 @@ $ find technical/ -user john
 find: ‘john’ is not the name of a known user
 ```
 
-The second useful option that I found was the -newer command. This will filter the results from -find to only include files that were created after the file that's passed after -newer was made. In a situtaion like this, where we have a folder of a lot of academic publications, it can useful to search for files newer than a certain file, since you may be searching
+The second useful option that I found was the -newer command. This will filter the results from `find` to only include files that were created after the file that's passed after -newer was made. In a situtaion like this, where we have a folder of a lot of academic publications, it can useful to search for files newer than a certain file, since you may be searching
 for research on a topic that is more recent then whatever file is being passed after -newer. Below I show 2 examples of this command.
 
 ```
-$ find ./ -newer ./docsearch/technical/plos/pmed.0020281.txt
-./docsearch/.git
-./docsearch/.git/index
+$ find technical/ -newer ./technical/plos/pmed.0020273.txt
+technical/plos
+technical/plos/pmed.0020281.txt
 ```
 ```
-$ find ./ -newer ./docsearch/technical/plos/pmed.0020273.txt
-./docsearch/.git
-./docsearch/.git/index
-./docsearch/technical/plos
-./docsearch/technical/plos/pmed.0020274.txt
-./docsearch/technical/plos/pmed.0020275.txt
-./docsearch/technical/plos/pmed.0020278.txt
-./docsearch/technical/plos/pmed.0020281.txt
+$ find technical/ -newer ./technical/plos/pmed.0020281.txt
 ```
+
+In the second example, there aren't any files listed since it's the newest file in the directory.
 
 A third useful option I saw was the -empty options. This just returns the files and subdirectories that don't have anything in it. This can be useful if you have a lot of files and subdirectories, and you want to remove all the unnecessary files and subdirectories to make it easier to navigate (assuming it's a context where an empty file or directory is unnecessary). For the first example, I tried using it on a subdirectory in `technicals` and I got:
 ```
