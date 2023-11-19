@@ -27,7 +27,7 @@ Although the code for the implementation is buggy, it doesn't always produce une
 ```
 When I run this test, the code passes:
 
-![Image](Non Failure Inducing Input.PNG)
+![Image](Non Failure Inducing Input.png)
 
 When you have a failure inducing input, you'll know that the program is failing to produce the expected output from the symptom, which in this case is the output of the JUnit test.
 
