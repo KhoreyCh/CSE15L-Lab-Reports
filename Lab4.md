@@ -7,7 +7,7 @@ a password. Here's a screenshot of the result.
 ![Image](Step 4.png)
 
 For the next step, which happened after I connected to the remote server, I pressed `<ctrl> R cl <Enter>`. This searched the history of the commands I recently used, for whatever had "cl" in it. Doing this brought up
-the `git clone git@github.com:KhoreyCh/lab7.git`. This is the to ssh link to the github repository which contains the file that I'm going to edit. The final enter ran the command and cloned the repository
+the `git clone git@github.com:KhoreyCh/lab7.git`. This is the to ssh link to the github repository which contains the file that I'm going to edit. This works because I generated the ssh keys on the private server and updated my github account to recognize that public key. The final enter ran the command and cloned the repository
 
 ![Image](Step 5.png)
 
