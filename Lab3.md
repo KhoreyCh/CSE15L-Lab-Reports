@@ -1082,7 +1082,7 @@ technical/plos/pmed.0020278.txt
 technical/plos/pmed.0020281.txt
 ```
 
-under. In my second example, I got the output shown below, since this user isn't saved on this device.
+In my second example, I got the output shown below, since this user isn't saved on this device.
 
 ```
 $ find technical/ -user john
