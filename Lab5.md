@@ -11,6 +11,7 @@
 ![Image](FailingTest.png)
 
 >Here's my code:
+
 ```
 public class VendingMachine    
 {
